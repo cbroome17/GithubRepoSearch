@@ -1,0 +1,64 @@
+
+button {
+    width: 100px;           
+    height: 50px;           
+    padding: 0px;   
+    font-size: 18px; 
+    background-color: #007bff;
+    color: white;     
+    border-radius: 7px;
+    border: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+label {
+    font-size: 28px;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 30px;
+}
+
+.card-container {
+    
+    text-align: center;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.card-container:hover {
+    background-color: grey;
+}
+
+.form-container {
+
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.error-container {
+    text-align: center;
+}
+
+#pagination-container {
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    margin-right: 10px;
+    display: flex;
+    gap: 10px;
+}
+
